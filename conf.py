@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.parser import CommonMarkParser
+
 
 # -- Project information -----------------------------------------------------
 
@@ -32,14 +32,6 @@ release = 'v0.1'
 # ones.
 extensions = [
 ]
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-source_suffix = ['.rst', '.md']
-
-
-
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
